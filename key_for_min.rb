@@ -7,6 +7,7 @@ return_key = ""
  name_hash.each do |key, value|
     if value < min_value
       min_value = value
+      return_key = key
     end  
   end
 return_key
